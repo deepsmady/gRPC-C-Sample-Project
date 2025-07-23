@@ -1,6 +1,30 @@
+## 🔷 What is gRPC?
+
+**gRPC (gRPC Remote Procedure Call)** is a high-performance, open-source RPC framework developed by Google.  
+It uses **Protocol Buffers (protobuf)** as its interface definition language and **HTTP/2** as its transport protocol.
+
+---
+
+### 🚀 Key Features:
+
+- **Contract-first development** using `.proto` files  
+- **Strongly typed** APIs with code generation  
+- Built-in **authentication**, **streaming**, and **error handling**  
+- Supports **bi-directional streaming** (client ↔ server)  
+- Efficient **serialization via Protocol Buffers** (smaller & faster than JSON)  
+- Ideal for **microservices communication** across platforms/languages  
+
+---
+
+## 🔷 gRPC in C# – Overview
+
+You define services using `.proto` files and generate C# code using the gRPC tooling.  
+C# offers full support for gRPC via the `Grpc.AspNetCore` and `Grpc.Tools` NuGet packages.
+
+
 # gRPC C# Sample Project
 
-This is a GitHub-ready gRPC example using C# (.NET 6+), demonstrating a simple Greeter service with a client-server setup.
+This is a simple gRPC example using C# (.NET 6+), demonstrating a simple Greeter service with a client-server setup.
 
 ---
 
